@@ -1,0 +1,27 @@
+POST http://localhost:4002/products
+content-Type: application/json
+
+{
+    "name":"batedor de massa tramontina",
+    "price":"9.99"
+}
+
+###
+
+GET http://localhost:4002/products
+
+
+###
+GET http://localhost:4002/products/
+
+
+###
+PUT http://localhost:4002/products/edf7bbff-de51-4e40-bf42-28f3300a432f
+content-Type: application/json
+
+{
+    "price": "50.50"
+}
+
+###
+DELETE http://localhost:4002/products/edf7bbff-de51-4e40-bf42-28f3300a432f
